@@ -7,7 +7,6 @@ function Card(props) {
   function handleClick(e) {
     if (e.target.className === 'place-card__image') {
       onCardClick(link);
-      console.log(e.target.className);
     }
   }
 
